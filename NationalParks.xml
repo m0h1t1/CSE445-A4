@@ -3,6 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://m0h1t1.github.io/CSE445-A4/NationalParks.xsd">
 
+
+    <!-- Park with rating and multiple phone numbers -->
     <NationalPark Rating="4.9">
         <Name>Grand Canyon</Name>
         <Phone>928-638-7888</Phone>
@@ -29,6 +31,8 @@
         </Address>
     </NationalPark>
 
+
+    <!-- Park with no rating and one phone number -->
     <NationalPark>
         <Name>Yosemite</Name>
         <Phone>209-372-0200</Phone>
@@ -41,6 +45,8 @@
         </Address>
     </NationalPark>
 
+
+    <!-- Park with rating and one phone number -->
     <NationalPark Rating="4.7">
         <Name>Zion</Name>
         <Phone>435-772-3256</Phone>
@@ -53,6 +59,8 @@
         </Address>
     </NationalPark>
 
+
+    <!-- Park with no rating and multiple phone numbers -->
     <NationalPark>
         <Name>Acadia</Name>
         <Phone>207-288-3338</Phone>
