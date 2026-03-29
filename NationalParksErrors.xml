@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 1. Changed NationalParks to NationalPark -->
+<NationalPark
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://m0h1t1.github.io/CSE445-A4/NationalParks.xsd">
+
+
+    <NationalPark Rating="4.9">
+        <!-- 5. Added two names for this park -->
+        <Name>Grand Canyon</Name>
+        <Name>Grand Canyon National Park</Name>
+        <Phone>928-638-7888</Phone>
+        <Phone>928-638-7798</Phone>
+        <Address NearestAirport="Flagstaff">
+            <Number>20</Number>
+            <Street>S Entrance Rd</Street>
+            <City>Grand Canyon Village</City>
+            <State>AZ</State>
+            <Zip>86023</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.8">
+        <Name>Yellowstone</Name>
+        <Phone>307-344-7381</Phone>
+        <Phone>307-344-2117</Phone>
+        <!-- 2. Removed required NearetstAirport-->
+        <Address>
+            <Number>114</Number>
+            <Street>Albright Ave</Street>
+            <City>Yellowstone National Park</City>
+            <State>WY</State>
+            <Zip>82190</Zip>
+        </Address>
+    </NationalPark>
+
+
+    <NationalPark>
+        <Name>Yosemite</Name>
+        <!-- 3. Removed Phone element -->
+        <Address NearestAirport="Fresno">
+            <Number>9035</Number>
+            <Street>Village Dr</Street>
+            <City>Yosemite Valley</City>
+            <State>CA</State>
+            <Zip>95389</Zip>
+        </Address>
+    </NationalPark>
+
+
+    <NationalPark Rating="4.7">
+        <Name>Zion</Name>
+        <Phone>435-772-3256</Phone>
+        <Address NearestAirport="St. George Regional">
+            <Number>1</Number>
+            <Street>Zion Park Blvd</Street>
+            <City>Springdale</City>
+            <State>UT</State>
+            <Zip>84767</Zip>
+        </Address>
+    </NationalPark>
+
+
+    <NationalPark>
+        <Name>Acadia</Name>
+        <Phone>207-288-3338</Phone>
+        <Phone>207-288-8791</Phone>
+        <Address NearestAirport="Bangor International">
+            <Number>20</Number>
+            <Street>McFarland Hill Dr</Street>
+            <City>Bar Harbor</City>
+            <State>ME</State>
+            <Zip>04609</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.3">
+        <Name>Guadalupe Mountains</Name>
+        <Phone>915-828-3251</Phone>
+        <!-- 4. Removed closing tag for Address element -->
+        <Address NearestAirport="El Paso International">
+            <Number>400</Number>
+            <Street>Pine Canyon Rd</Street>
+            <City>Salt Flat</City>
+            <State>TX</State>
+            <Zip>79847</Zip>
+    </NationalPark>
+
+    <NationalPark>
+        <Name>North Cascades</Name>
+        <Phone>360-854-7200</Phone>
+        <Address NearestAirport="Seattle Tacoma International">
+            <Number>810</Number>
+            <Street>State Route 20</Street>
+            <City>Sedro-Woolley</City>
+            <State>WA</State>
+            <Zip>98284</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.5">
+        <Name>Shenandoah</Name>
+        <Phone>540-999-3500</Phone>
+        <Address NearestAirport="Charlottesville Albemarle">
+            <Number>3655</Number>
+            <Street>US Highway 211 East</Street>
+            <City>Luray</City>
+            <State>VA</State>
+            <Zip>22835</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark>
+        <Name>Cuyahoga Valley</Name>
+        <Phone>330-657-2752</Phone>
+        <Address NearestAirport="Cleveland Hopkins International">
+            <Number>6947</Number>
+            <Street>Riverview Rd</Street>
+            <City>Peninsula</City>
+            <State>OH</State>
+            <Zip>44264</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark Rating="4.6">
+        <Name>Dry Tortugas</Name>
+        <Phone>305-242-7700</Phone>
+        <Address NearestAirport="Key West International">
+            <Number>40001</Number>
+            <Street>SR-9336</Street>
+            <City>Homestead</City>
+            <State>FL</State>
+            <Zip>33034</Zip>
+        </Address>
+    </NationalPark>
+
+</NationalPark>    
