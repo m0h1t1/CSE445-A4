@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="https://m0h1t1.github.io/CSE445-A4"
+    targetNamespace="https://m0h1t1.github.io/CSE445-A4"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
 
     <!-- root element -->
     <xsd:element name="NationalParks" type="NationalParksType"/>

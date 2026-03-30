@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 1. Changed NationalParks to NationalPark -->
 <NationalPark
+    xmlns="https://m0h1t1.github.io/CSE445-A4"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://m0h1t1.github.io/CSE445-A4/NationalParks.xsd">
+    xsi:schemaLocation="https://m0h1t1.github.io/CSE445-A4 https://m0h1t1.github.io/CSE445-A4/NationalParks.xsd">
 
 
     <NationalPark Rating="4.9">
